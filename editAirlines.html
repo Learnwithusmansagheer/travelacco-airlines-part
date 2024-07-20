@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="./airline-withOutIncentives.css">
-    <title>Airline withOutIncentive</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./editAirlines.css">
+    <title>Airline Edit</title>
 </head>
 
 <body>
@@ -91,23 +90,23 @@
         <div class="packageSetting">
             <div class="add_airlines">
                 <div class="add-header">
-                    <h1>Add New Airlines Here</h1>
+                    <h1>Edit Your Airline’s Information</h1>
                 </div>
                 <div class="input-setting">
                     <div class="input1">
                         <div class="subInput">
                             <label for="text">Name <span>*</span></label><br>
-                            <input type="text"placeholder="Name">
+                            <input type="text" placeholder="Pakistan Airline">
                         </div>
                         <div class="subInput">
                             <label for="text">Digital Code<span>*</span></label><br>
-                            <input type="text" placeholder="Write Digital Code Here">
+                            <input type="text" placeholder="PK">
                         </div>
                     </div>
                     <div class="input1">
                         <div class="subInput">
                             <label for="text">Character Code <span>*</span></label><br>
-                            <input type="text" placeholder="Write Character Code Here">
+                            <input type="text" placeholder="00 00 00">
                         </div>
                         <div class="subInput">
                             <label for="text">Address<span>*</span></label><br>
@@ -117,39 +116,46 @@
                     <div class="input1">
                         <div class="subInput">
                             <label for="text">Balance<span>*</span></label><br>
+                            <input type="text" placeholder="RS 75000 ">
+                        </div>
+                        <div class="subInput">
+                            <label for="text">Incentive Status<span>*</span></label><br>
                             <select name="" id="city">
-                                <option value="1">RS</option>
+                                <option value="1">yes</option>
                                 <option value="2">karachi</option>
                                 <option value="3">Faisalabad</option>
                             </select>
-                      
+
                         </div>
-                            <div class="subInput">
-                                <label for="text">Incentive Status<span>*</span></label><br>
-                                <select name="" id="city">
-                                    <option value="1">yes</option>
-                                    <option value="2">karachi</option>
-                                    <option value="3">Faisalabad</option>
-                                </select>
-                          
-                        </div>
-                        
+
 
                     </div>
-                  
-                        
+                    <div class="input1">
+                        <div class="subInput">
+                            <label for="text">Incentive Percentage<span>*</span></label><br>
+                            <input type="text" placeholder="1% of amount ">
+                        </div>
+                        <div class="subInput">
+                            <label for="text">Withholding Tax*<span>*</span></label><br>
+                            <input type="text" placeholder="12% of Incentive">
+
+                        </div>
+
 
                     </div>
-                    
-                    
+
+
                     <div class="input2">
                         <label for="text">Contact Person Name<span>*</span></label><br>
-                            <input type="text" placeholder="Contact Person Name">
+                        <input type="text" placeholder="Contact Person Name">
                     </div>
                     <div class="button-footer">
-                        <button><a href="./editAirlines.html">
-                            ADD
-                        </a></button>
+                        <button><a href="#">UPDATE</a></button>
+                        <button id="back"><a href="./airline-withOutIncentives.html">
+                                <i class='bx bx-left-arrow-alt'></i>
+                                <span>Back </span>
+                            </a></button>
+
                     </div>
                 </div>
             </div>
